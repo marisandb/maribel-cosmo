@@ -1,0 +1,20 @@
+  <LinkTo @route="index" class="menu-index">
+    <img class="logo" src="/assets/images/Logo.png">
+  </LinkTo>
+<nav class="nav">
+  <div class="links">
+    <LinkTo @route="about">
+      About 
+    </LinkTo>
+    <LinkTo @route="gallery">
+      Gallery 
+    </LinkTo>
+    <LinkTo @route="contact">
+      Contact Me
+    </LinkTo>
+    <a class="social" href="https://www.facebook.com/Maribel.Cosm"><i class="fa fa-facebook"></i></a>
+    <a class="social" href="https://www.instagram.com/maribel.cosmo/"><i class="fa fa-instagram"></i></a>
+
+  </div>
+  {{yield}}
+</nav>

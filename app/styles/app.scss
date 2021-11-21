@@ -1,0 +1,52 @@
+$light-color: #E8E2E2;
+$secondary-color: #E8D2AE;
+$third-color: #D7B29D;
+$fourth-color: #CB8589;
+$dark-color: #796465;
+$font-header: "Lucida Handwriting";
+
+*{
+    display: block;
+}
+
+.logo {
+    border: 5px double $dark-color;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    width: 20%;
+}
+
+
+h1, h2 {
+    font-family: $font-header;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+
+    & .links{
+        color: $dark-color;
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        }
+
+    & a{
+        color: $dark-color;
+        margin: 5px;
+        }
+  
+}
+
+.jumbo{
+    background-image: url('/assets/images/jumbo.png');
+
+}
+
+
+body {        
+    background-color: white;
+
+}

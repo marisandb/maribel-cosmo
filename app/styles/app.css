@@ -1,0 +1,12 @@
+h1, h2 {
+  font-family: "Lucida Handwriting";
+}
+
+.jumbo {
+  background-image: url("/assets/images/jumbo.png");
+}
+
+body {
+  background-color: #E8E2E2;
+}
+/*# sourceMappingURL=app.css.map */
