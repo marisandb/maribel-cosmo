@@ -10,5 +10,5 @@ Router.map(function () {
   this.route('about');
   this.route('gallery');
   this.route('contact');
-
+  this.route('policies');
 });
