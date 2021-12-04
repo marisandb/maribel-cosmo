@@ -8,7 +8,16 @@ $font-header: "Lucida Handwriting";
 *{
     display: block;
     color: $dark-color;
+    
+}
 
+body {        
+    background-color: white;
+
+}
+
+h1, h2 {
+    font-family: $font-header;
 }
 
 .logo {
@@ -20,10 +29,15 @@ $font-header: "Lucida Handwriting";
     width: 20%;
 }
 
-
-h1, h2 {
-    font-family: $font-header;
+.jumbo{    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    width: 50%;
 }
+
+
 .nav{
     margin: 0;
     padding: 0;
@@ -120,8 +134,25 @@ h1, h2 {
 }
 
 
-
-body {        
-    background-color: white;
-
+.testimonials{
+    display: flex;
+    flex-direction: column;    
+    font-size: larger;
+    & .left{
+        text-align: left;        
+        background-color: $dark-color;
+        border: 5px double $third-color;
+        margin: 10px;
+        max-width: 50%;
+    }
+    & .left p{
+        color: $third-color;
+    }
+    & .right{
+        text-align: right;
+        background-color: $third-color;
+        border: 5px double $dark-color;
+        max-width: 50%;
+        margin: 10px;
+    }
 }
